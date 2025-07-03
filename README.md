@@ -92,6 +92,18 @@ https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/cat%20seasonal
 The results show total sales by category and season across different years. In Winter 2006, Animation leads with 395.59 in sales, followed by Action with 361.71. In Spring 2005, Drama performs well at 2071.24, while Action also contributes significantly with 2031.01. In Summer 2005, Sports leads with a substantial 29915.66, followed by Animation at 24899.41. These insights highlight seasonal trends, with Sports performing strongly in summer and Animation and Action being consistent performers in both winter and spring.
 
 
+## Following is the Tableau Dashboard of the 5 KPIs;
+
+1) Top 5 Categories by Sale
+2) Top 5 Categories by Turnover Rate
+3) Top 5 Categories by Avg. Rental Distribution
+4) Top 5 Categories Revenue Split by Stores
+5) MoM Sales of Top 5 Categories
+
+<img width="1199" alt="Screenshot 2025-07-03 at 1 17 54 PM" src="https://github.com/user-attachments/assets/6f768e05-9c83-4355-8d3a-0d8f05518bc5" />
+
+
+
 
 
 
