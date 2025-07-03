@@ -6,7 +6,10 @@ With this data warehouse, we will focus on analyzing film categories across diff
 1)	QUESTION: What are the top film categories by sales for each store?
    
 <img width="270" alt="image" src="https://github.com/user-attachments/assets/f4ef0a12-ee65-44ff-9198-33ceb193a7b5" />
+Here is the SQL query:<br>
 [Top 5 Categories per Store SQL](https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Top%205%20cat%20per%20store.sql)
+
+
 
 
 # INTERPRETATION: 
