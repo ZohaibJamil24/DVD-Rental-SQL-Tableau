@@ -18,7 +18,8 @@ The table provides insights into category-wise sales performance across two stor
 Additionally, Store 2 includes Documentary as a significant revenue-generating category, whereas Store 1 does not, suggesting a differentiated inventory strategy or customer preference variations between the two locations. This insight could guide inventory adjustments for Store 1 to explore demand for documentaries.
 From a business perspective, these findings highlight potential actions such as boosting inventory for high-performing categories, conducting customer preference analysis to understand Store 2’s advantage, and testing the Documentary category in Store 1 to expand its offering. Understanding these patterns can help optimize revenue and improve store-specific strategies.
 
-
+Here is the SQL query:<br>
+https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Top%205%20cat%20per%20store.sql
 
 2)	 QUESTION: What are the top 5 actors within the top 5 categories in terms of sales for each store?
    <img width="241" alt="image" src="https://github.com/user-attachments/assets/e0e31d0a-c632-4be4-8c6c-d702df9cbc3e" />
@@ -67,7 +68,7 @@ From a business perspective, these insights suggest that stores should prioritiz
 
 The results show total sales by category and season across different years. In Winter 2006, Animation leads with 395.59 in sales, followed by Action with 361.71. In Spring 2005, Drama performs well at 2071.24, while Action also contributes significantly with 2031.01. In Summer 2005, Sports leads with a substantial 29915.66, followed by Animation at 24899.41. These insights highlight seasonal trends, with Sports performing strongly in summer and Animation and Action being consistent performers in both winter and spring.
 
-![image](https://github.com/user-attachments/assets/274b567b-e877-4442-9f90-8f08a673095f)
+
 
 
 
