@@ -37,12 +37,18 @@ The actor sales data reveals key trends in customer preferences across different
 3)	Question: What is film rental turnover rate by category?
    <img width="245" alt="image" src="https://github.com/user-attachments/assets/0285a96b-9f33-4a42-96da-aeb30d8656eb" />
 
+  Here is the SQL query:<br>
+   https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Rental%20count%20for%20films.sql
+
 # INTERPRETATION:
 Turnover rate is a key measure of how efficiently movies are rented compared to how many films are available in each category for renting. A high turnover rate means that movies are rented frequently and has strong demand. A low turnover rate suggests that films are not rented as often, which could mean an oversupply or lack of customer interest.
 The Film Rental Turnover Rate by Category highlights that certain genres have higher demand than others. Sci-Fi, Action, and Animation show the highest turnover rates, suggesting strong rental frequency relative to the number of available films. To maximize the revenue and optimize inventory, the company should increase stock for high-turnover categories to make sure enough movies are available. For low-turnover categories like: Horror, Travel, and Foreign, companies should consider special promotions and seasonal discounts.
 
 4)	Question: What is the average revenue per categories?
    <img width="188" alt="image" src="https://github.com/user-attachments/assets/805c1bdb-538a-49a4-93b7-f92ea3a2b416" />
+
+   Here is the SQL query:<br>
+   https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Avg%20rev%20per%20cat.sql
    
 # INTERPRETATION:
 The table presents the average revenue generated per film across different categories, offering valuable insights into which genres are the most profitable. Sports (443.91), Drama (431.44), and Sci-Fi (421.82) lead as the top revenue-generating categories per film, indicating strong demand and high rental activity for films in these genres.
@@ -52,6 +58,9 @@ This data can guide inventory and pricing strategies, where management can incre
 5)	Question: Rental Count by movie title
    <img width="225" alt="image" src="https://github.com/user-attachments/assets/b9f7bdf7-8e4e-48e0-a9b8-09333cfbefb7" />
 
+   Here is the SQL query:<br>
+   https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Rental%20count%20for%20films.sql
+
 # INTERPRETATION:
 The table showcases the most rented films in Store 1, highlighting customer preferences and demand for specific movies. "MASK PEACH" (187 rentals) and "LONELY ELEPHANT" (180 rentals) are the top-performing films, indicating strong customer interest in these titles. Other highly rented films, such as "RINGS HEARTBREAKERS" (165) and "JUGGLER HARDLY" (162), also demonstrate significant popularity.Several films, including "MOVIE SHAKESPEARE," "FANTASY TROOPERS," and "WEST LION" (each with 144 rentals), show consistent rental activity, suggesting a preference for a diverse range of genres. The presence of multiple films with rentals above 140 indicates a stable demand across different movie types, which can help in optimizing inventory management.
 From a business perspective, these insights suggest that Store 1 should prioritize stocking and promoting high-demand films to maintain revenue growth. Additionally, management could analyze genre trends within these films to curate similar movie recommendations or bundle promotions to maximize rental activity.
@@ -59,6 +68,9 @@ From a business perspective, these insights suggest that Store 1 should prioriti
 6)	Impact of Movie Length on Rental Demand
 
    <img width="238" alt="image" src="https://github.com/user-attachments/assets/f7364c94-cbdc-4f65-940e-c848fcf98985" />
+
+   Here is the SQL query:<br>
+   https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Length%20of%20film%20count.sql
 
   # INTERPRETATION:
 The data categorizes movies based on their length and shows the total number of rentals for each category. Long movies (over 120 minutes) have the highest rental count (40,073), followed closely by medium-length movies (60-120 minutes) with 39,282 rentals. This suggests that customers prefer longer movies, possibly due to their immersive storytelling or perceived value.
@@ -68,6 +80,9 @@ From a business perspective, these insights suggest that stores should prioritiz
 7)	Top 2 categories in each season
 
 <img width="346" alt="image" src="https://github.com/user-attachments/assets/6777cad1-aab5-4c29-aca5-8b1750c34c70" />
+
+Here is the SQL query:<br>
+https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/cat%20seasonal%20sales%20per%20store.sql
 
 # INTERPRETATION:
 
