@@ -8,7 +8,7 @@ With this data warehouse, we will focus on analyzing film categories across diff
 <img width="270" alt="image" src="https://github.com/user-attachments/assets/f4ef0a12-ee65-44ff-9198-33ceb193a7b5" />
 
 Here is the SQL query:<br>
-(https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Top%205%20cat%20per%20store.sql)
+https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Top%205%20cat%20per%20store.sql
 
 
 
@@ -20,10 +20,71 @@ From a business perspective, these findings highlight potential actions such as 
 
 
 
-3)	 QUESTION: What are the top 5 actors within the top 5 categories in terms of sales for each store?
+2)	 QUESTION: What are the top 5 actors within the top 5 categories in terms of sales for each store?
    <img width="241" alt="image" src="https://github.com/user-attachments/assets/e0e31d0a-c632-4be4-8c6c-d702df9cbc3e" />
    <img width="235" alt="image" src="https://github.com/user-attachments/assets/1d51982f-a44e-44c2-a290-ec7e0853920e" />
    <img width="254" alt="image" src="https://github.com/user-attachments/assets/46a908be-5e47-465a-bef6-13587a65cea3" />
+
+# INTERPRETATION:
+The actor sales data reveals key trends in customer preferences across different film categories in both stores. Drama and Sports emerge as dominant genres, with actors like Cameron Zellweger (417 sales in Drama) and Ben Willis (479 sales in Sports) leading in Store 1, while Store 2 also sees strong sales in Sports with Ben Willis (421 sales) and Morgan Williams (339 sales). Store 1 shows high demand for Animation and New releases, where Jayne Nolte (377 sales in Animation) and Ed Mansfield (327 sales in New) perform well, whereas Store 2 has a notable presence of Sci-Fi and Documentary films, with Gina Degeneres (298 sales in Sci-Fi) and Julia Barrymore (326 sales in Documentary) among the top performers. These differences suggest that customer preferences vary between stores, with Store 1 favoring new releases and animated content, while Store 2 attracts more Sci-Fi and Documentary viewers. To optimize sales, management could prioritize stocking films featuring high-performing actors, adjust inventory based on store-specific preferences, and test cross-marketing strategies, such as introducing successful Documentary films from Store 2 into Store 1 to explore untapped demand.
+
+3)	Question: What is film rental turnover rate by category?
+   <img width="245" alt="image" src="https://github.com/user-attachments/assets/0285a96b-9f33-4a42-96da-aeb30d8656eb" />
+
+# INTERPRETATION:
+Turnover rate is a key measure of how efficiently movies are rented compared to how many films are available in each category for renting. A high turnover rate means that movies are rented frequently and has strong demand. A low turnover rate suggests that films are not rented as often, which could mean an oversupply or lack of customer interest.
+The Film Rental Turnover Rate by Category highlights that certain genres have higher demand than others. Sci-Fi, Action, and Animation show the highest turnover rates, suggesting strong rental frequency relative to the number of available films. To maximize the revenue and optimize inventory, the company should increase stock for high-turnover categories to make sure enough movies are available. For low-turnover categories like: Horror, Travel, and Foreign, companies should consider special promotions and seasonal discounts.
+
+4)	Question: What is the average revenue per categories?
+   <img width="188" alt="image" src="https://github.com/user-attachments/assets/805c1bdb-538a-49a4-93b7-f92ea3a2b416" />
+   
+# INTERPRETATION:
+The table presents the average revenue generated per film across different categories, offering valuable insights into which genres are the most profitable. Sports (443.91), Drama (431.44), and Sci-Fi (421.82) lead as the top revenue-generating categories per film, indicating strong demand and high rental activity for films in these genres.
+Animation (421.03) and New releases (402.49) also show strong profitability, suggesting that customers are willing to spend more on newly released and animated films. On the other hand, categories like Games (344.98) and Family (315.09) generate the lowest average revenue per film, indicating either lower demand or lower pricing strategies for these genres.
+This data can guide inventory and pricing strategies, where management can increase stock and marketing efforts for high-performing categories, while also exploring ways to boost engagement with lower-revenue categories through promotions, bundling, or pricing adjustments.
+
+5)	Question: Rental Count by movie title
+   <img width="225" alt="image" src="https://github.com/user-attachments/assets/b9f7bdf7-8e4e-48e0-a9b8-09333cfbefb7" />
+
+# INTERPRETATION:
+The table showcases the most rented films in Store 1, highlighting customer preferences and demand for specific movies. "MASK PEACH" (187 rentals) and "LONELY ELEPHANT" (180 rentals) are the top-performing films, indicating strong customer interest in these titles. Other highly rented films, such as "RINGS HEARTBREAKERS" (165) and "JUGGLER HARDLY" (162), also demonstrate significant popularity.Several films, including "MOVIE SHAKESPEARE," "FANTASY TROOPERS," and "WEST LION" (each with 144 rentals), show consistent rental activity, suggesting a preference for a diverse range of genres. The presence of multiple films with rentals above 140 indicates a stable demand across different movie types, which can help in optimizing inventory management.
+From a business perspective, these insights suggest that Store 1 should prioritize stocking and promoting high-demand films to maintain revenue growth. Additionally, management could analyze genre trends within these films to curate similar movie recommendations or bundle promotions to maximize rental activity.
+
+6)	Impact of Movie Length on Rental Demand
+
+   <img width="238" alt="image" src="https://github.com/user-attachments/assets/f7364c94-cbdc-4f65-940e-c848fcf98985" />
+
+  # INTERPRETATION:
+The data categorizes movies based on their length and shows the total number of rentals for each category. Long movies (over 120 minutes) have the highest rental count (40,073), followed closely by medium-length movies (60-120 minutes) with 39,282 rentals. This suggests that customers prefer longer movies, possibly due to their immersive storytelling or perceived value.
+In contrast, short movies (under 60 minutes) have significantly fewer rentals (8,625), indicating lower demand. This may suggest that customers see short films as less appealing for rentals, possibly because they offer less entertainment value compared to feature-length films.
+From a business perspective, these insights suggest that stores should prioritize stocking and promoting longer films, as they generate the highest rental activity. Additionally, short films may benefit from promotional bundling or pricing adjustments to increase customer interest and rental frequency.
+
+7)	Top 2 categories in each season
+
+<img width="346" alt="image" src="https://github.com/user-attachments/assets/6777cad1-aab5-4c29-aca5-8b1750c34c70" />
+
+# INTERPRETATION:
+
+The results show total sales by category and season across different years. In Winter 2006, Animation leads with 395.59 in sales, followed by Action with 361.71. In Spring 2005, Drama performs well at 2071.24, while Action also contributes significantly with 2031.01. In Summer 2005, Sports leads with a substantial 29915.66, followed by Animation at 24899.41. These insights highlight seasonal trends, with Sports performing strongly in summer and Animation and Action being consistent performers in both winter and spring.
+
+![image](https://github.com/user-attachments/assets/274b567b-e877-4442-9f90-8f08a673095f)
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+   
+
+
 
 
 
