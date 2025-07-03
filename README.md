@@ -8,7 +8,7 @@ https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Data%20ware%20
 
 With this data warehouse, we will focus on analyzing film categories across different domains. Key insights will include identifying top-performing categories in terms of revenue and turnover rate, allowing for targeted marketing and inventory decisions. We will analyze seasonality, understanding how sales of categories like Animation, Sci-Fi, and Drama fluctuate during different seasons (e.g., Summer vs. Winter). Additionally, we will explore rental durations to identify which categories tend to have longer rentals, providing insights into customer preferences. Comparing category performance across stores will help determine the best-performing locations for specific categories, guiding strategic decisions for each store.
 
-# Now we will answer some critical insights in the shape of KPIs
+# Now we will answer some critical insights through formation of KPIs
 
 ## 1)	QUESTION: What are the top film categories by sales for each store?
    
