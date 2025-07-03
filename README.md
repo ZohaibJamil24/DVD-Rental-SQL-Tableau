@@ -18,13 +18,14 @@ The table provides insights into category-wise sales performance across two stor
 Additionally, Store 2 includes Documentary as a significant revenue-generating category, whereas Store 1 does not, suggesting a differentiated inventory strategy or customer preference variations between the two locations. This insight could guide inventory adjustments for Store 1 to explore demand for documentaries.
 From a business perspective, these findings highlight potential actions such as boosting inventory for high-performing categories, conducting customer preference analysis to understand Store 2’s advantage, and testing the Documentary category in Store 1 to expand its offering. Understanding these patterns can help optimize revenue and improve store-specific strategies.
 
-Here is the SQL query:<br>
-https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Top%205%20cat%20per%20store.sql
 
 2)	 QUESTION: What are the top 5 actors within the top 5 categories in terms of sales for each store?
    <img width="241" alt="image" src="https://github.com/user-attachments/assets/e0e31d0a-c632-4be4-8c6c-d702df9cbc3e" />
    <img width="235" alt="image" src="https://github.com/user-attachments/assets/1d51982f-a44e-44c2-a290-ec7e0853920e" />
    <img width="254" alt="image" src="https://github.com/user-attachments/assets/46a908be-5e47-465a-bef6-13587a65cea3" />
+   
+  Here is the SQL query:<br>
+   https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Actors%20within%20cat%20per%20store.sql
 
 # INTERPRETATION:
 The actor sales data reveals key trends in customer preferences across different film categories in both stores. Drama and Sports emerge as dominant genres, with actors like Cameron Zellweger (417 sales in Drama) and Ben Willis (479 sales in Sports) leading in Store 1, while Store 2 also sees strong sales in Sports with Ben Willis (421 sales) and Morgan Williams (339 sales). Store 1 shows high demand for Animation and New releases, where Jayne Nolte (377 sales in Animation) and Ed Mansfield (327 sales in New) perform well, whereas Store 2 has a notable presence of Sci-Fi and Documentary films, with Gina Degeneres (298 sales in Sci-Fi) and Julia Barrymore (326 sales in Documentary) among the top performers. These differences suggest that customer preferences vary between stores, with Store 1 favoring new releases and animated content, while Store 2 attracts more Sci-Fi and Documentary viewers. To optimize sales, management could prioritize stocking films featuring high-performing actors, adjust inventory based on store-specific preferences, and test cross-marketing strategies, such as introducing successful Documentary films from Store 2 into Store 1 to explore untapped demand.
