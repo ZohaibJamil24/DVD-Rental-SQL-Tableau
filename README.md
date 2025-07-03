@@ -6,7 +6,7 @@ With this data warehouse, we will focus on analyzing film categories across diff
 1)	QUESTION: What are the top film categories by sales for each store?
    
 <img width="270" alt="image" src="https://github.com/user-attachments/assets/f4ef0a12-ee65-44ff-9198-33ceb193a7b5" />
-https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Top%205%20cat%20per%20store.sql
+<https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Top%205%20cat%20per%20store.sql />
 
 # INTERPRETATION: 
 The table provides insights into category-wise sales performance across two stores. A clear trend emerges where Sports, Animation, and Drama categories generate high revenue in both stores, suggesting strong customer demand for these genres. However, Store 2 consistently records higher sales across top categories, indicating a larger customer base, higher rental frequency, or a more effective marketing strategy compared to Store 1.
