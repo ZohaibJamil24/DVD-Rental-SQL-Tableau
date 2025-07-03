@@ -1,6 +1,6 @@
 ## DVD-Rental-SQL
 # In this project I worked on a DVD rental business dataset to unfold Key Performance Indicators.
-# Follwoing is the Data Warehouse I built using 8 different tables.
+# Following is the Data Warehouse I built using 8 different tables.
 ![dwh main](https://github.com/user-attachments/assets/615f42bc-54ae-4a5f-83c6-24bf1da219c2)
 
 Here is the SQL query:<br>
