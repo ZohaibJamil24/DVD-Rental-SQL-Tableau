@@ -1,11 +1,14 @@
 ## DVD-Rental-SQL
 # In this project I worked on a DVD rental business dataset to unfold Key Performance Indicators.
+# Follwoing is the Data Warehouse I built using 8 different tables.
 ![dwh main](https://github.com/user-attachments/assets/615f42bc-54ae-4a5f-83c6-24bf1da219c2)
 
 Here is the SQL query:<br>
 https://github.com/ZohaibJamil24/DVD-Rental-SQL-Tableau/blob/main/Data%20ware%20house.sql
 
 With this data warehouse, we will focus on analyzing film categories across different domains. Key insights will include identifying top-performing categories in terms of revenue and turnover rate, allowing for targeted marketing and inventory decisions. We will analyze seasonality, understanding how sales of categories like Animation, Sci-Fi, and Drama fluctuate during different seasons (e.g., Summer vs. Winter). Additionally, we will explore rental durations to identify which categories tend to have longer rentals, providing insights into customer preferences. Comparing category performance across stores will help determine the best-performing locations for specific categories, guiding strategic decisions for each store.
+
+# Now we will answer some critical insights in the shape of KPIs
 
 1)	QUESTION: What are the top film categories by sales for each store?
    
